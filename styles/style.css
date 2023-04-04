@@ -1,0 +1,558 @@
+body {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.body-wrapper {
+}
+.header {
+  background-color: transparent;
+  position: sticky;
+  padding: 20px;
+}
+.header-logo img {
+  height: 60px;
+  width: 160px;
+}
+.header-list {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+.header-list li {
+  display: block;
+  padding: 5px;
+  display: inline-block;
+}
+.header-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.767);
+  cursor: pointer;
+  width: 150px;
+  border: none;
+  padding: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: auto;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+.round-back-left {
+  width: 900px;
+  height: 900px;
+  border-radius: 50%;
+  position: absolute;
+  left: -450px;
+  top: -65px;
+  border: 1px solid #d6d6d6;
+  z-index: -1;
+}
+.round-back {
+  right: 0;
+  bottom: 0;
+  width: 335px;
+  height: 335px;
+  border-radius: 50%;
+  border: 1px solid #d6d6d6;
+}
+.mian-banner-heading h1 {
+  font-size: 500%;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.mian-banner-heading h3 {
+  font-size: 200%;
+  width: 100%;
+  margin-top: 5px;
+}
+.mian-banner-heading {
+  position: absolute;
+  padding: 30px;
+  font-size: 15px;
+  top: 190px;
+  font-family: cursive;
+}
+.sticker {
+  position: absolute;
+  top: 85px;
+  right: 150px;
+  z-index: -1;
+}
+.sticker img {
+  height: 100px;
+  width: 280px;
+}
+.round-inner {
+  margin: auto;
+  top: 90px;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ff3939 50%, #ee5d24 100%);
+}
+.right-round {
+  position: absolute;
+  top: 265px;
+  left: 850px;
+  height: 55%;
+  width: 30%;
+  margin: auto;
+}
+.right-round a {
+  text-decoration: none;
+  color: black;
+}
+.right-round h3 {
+  position: absolute;
+  top: 30px;
+  right: 160px;
+}
+#sec-2 {
+  background-image: url(/resources/images/banner.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 65%;
+}
+.welcome-container {
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+  display: flex;
+}
+.welcome-text h1 {
+  margin: 0;
+  color: white;
+  font-size: 45px;
+  padding: 3%;
+}
+.welcome-text p {
+  margin: 0;
+  color: white;
+  font-size: 21px;
+  padding: 3%;
+}
+.welcome-text {
+  width: 40%;
+  padding: 40px;
+  z-index: -10;
+}
+.welcome-badges {
+  display: flex;
+  flex-flow: row;
+  width: 40%;
+}
+.badge-1 {
+  position: absolute;
+  top: 80px;
+  right: 500px;
+  padding: 10px;
+}
+.badge-1 img {
+  width: 100px;
+  height: 100px;
+}
+.badge-2 {
+  position: absolute;
+  top: 80px;
+  right: 300px;
+  padding: 10px;
+}
+.badge-2 img {
+  width: 110px;
+  height: 100px;
+}
+.badge-3 {
+  position: absolute;
+  padding: 10px;
+  top: 80px;
+  right: 100px;
+}
+.badge-3 img {
+  width: 100px;
+  height: 100px;
+}
+.badge-4 {
+  position: absolute;
+  top: 230px;
+  right: 500px;
+  padding: 10px;
+}
+.badge-4 img {
+  width: 100px;
+  height: 100px;
+}
+.badge-5 {
+  position: absolute;
+  padding: 10px;
+  top: 230px;
+  right: 300px;
+}
+.badge-5 img {
+  width: 100px;
+  height: 100px;
+}
+.badge-6 {
+  position: absolute;
+  padding: 10px;
+  top: 225px;
+  right: 100px;
+}
+.badge-6 img {
+  width: 100px;
+  height: 100px;
+}
+.red-round {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  position: absolute;
+  background: linear-gradient(135deg, #fe5454 50%, #e57a50 100%);
+  z-index: -1;
+
+  left: -385px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.our-service-container {
+  left: -430px;
+  top: 1425px;
+}
+
+.heading-our-services h1 {
+  font-size: 45px;
+}
+
+.services-accordian {
+  width: 50%;
+  float: right;
+  top: 200px;
+  position: relative;
+  text-align: center;
+  /* right: -88px; */
+  left: 210px;
+}
+#sec-3 {
+  position: absolute;
+  top: 180%;
+}
+#sec-3 img {
+  height: 100%;
+  width: 100%;
+}
+#sec-4 {
+  position: absolute;
+  top: 280%;
+}
+
+.accordion {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  display: flex;
+}
+.accordion.active.arrow img {
+  display: none;
+}
+
+.accordion:hover {
+  background-color: white;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+
+  border-bottom: 1px solid lightgray;
+}
+
+.panel p {
+  color: dimgray;
+  font-size: 15px;
+  font-family: novar;
+  line-height: 22px;
+  text-align: left;
+  padding: 1px;
+  width: 98%;
+  margin: auto;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#sec-5 {
+  position: absolute;
+  top: 400%;
+}
+.recent-project-heading {
+  font-size: 35px;
+}
+.recent-projects-1 {
+  display: flex;
+}
+.recent-projects-2 {
+  display: flex;
+}
+.project-1 {
+  max-width: 500px;
+
+  margin-left: 25px;
+}
+.project-1-img img {
+  max-width: 500px;
+}
+.project-2 {
+  max-width: 600px;
+  margin-left: 190px;
+}
+.project-2-img img {
+  max-width: 400px;
+}
+
+.project-3 {
+  max-width: 500px;
+
+  margin-left: 25px;
+}
+.project-3-img img {
+  max-width: 500px;
+}
+.project-4 {
+  max-width: 500px;
+  float: right;
+
+  margin-left: 190px;
+}
+.project-4-img img {
+  max-width: 400px;
+}
+.our-projects-button {
+  float: right;
+  background: linear-gradient(to right, #ff3939 0%, #ee5d24 100%);
+  margin-right: 250px;
+  width: 180px;
+  height: 60px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.our-projects-button a {
+  padding: 5%;
+  text-decoration: none;
+  color: white;
+  top: 20px;
+  position: relative;
+}
+.our-clients-heading h1 {
+  color: white;
+  font-size: 40px;
+}
+#sec-6 {
+  top: 580%;
+  position: absolute;
+
+  background-color: black;
+  width: 100%;
+}
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+  content: "";
+}
+
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 0.2;
+}
+
+.slick-active {
+  opacity: 0.5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+#sec-7 {
+  position: absolute;
+  top: 640%;
+  width: 100%;
+}
+
+.testimonails-container {
+  background: transparent;
+}
+.people img {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border-radius: 100%;
+  border: 5px solid rgb(221, 20, 6);
+}
+.people {
+  text-align: center;
+}
+.testimonials-head h1 {
+  font-size: 45px;
+  padding: 5%;
+}
